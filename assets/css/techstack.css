@@ -1,14 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
-html[light-mode="light"] {
-  --bg1-color: rgba(0, 0, 0, 0);
-  --text-color: #6c757d;
-  --shadow-col1: #babdc2;
-  --shadow-col2: #ffffff;
-  --meta-col: #444;
-  --head-col: black;
-}
+
 
 html[light-mode="dark"] {
   --bg1-color: #272727;
@@ -56,11 +49,7 @@ html {
     padding: 20px;
     box-shadow: 0px 0px 15px 2px black;
 }
-html[light-mode="light"] .tech_card{
-    background-color: white;
-    color: #303030;
-    box-shadow: 0px 0px 10px #303030;
-}
+
 .tech_card img{
     width: 120px;
     height: 120px;
@@ -83,9 +72,7 @@ html[light-mode="light"] .tech_card{
     color: #4e00bb;
     text-shadow: 0px 0px 15px #4e00bb;
 }
-html[light-mode="light"] .main-heading .my_techstacks{
-    text-shadow: none !important;
-}
+
 .skill-head{
     font-size: 2rem;
     font-weight: 700;
@@ -94,16 +81,11 @@ html[light-mode="light"] .main-heading .my_techstacks{
     color: #4e00bb;
     text-shadow: 0px 0px 15px #4e00bb;
 }
-html[light-mode="light"] .skill-head .my_skill{
-    text-shadow: none !important;
-}
+
 .tech_card .card_img img{
     animation: scale_anime 2s infinite ease-in-out;
 }
-html[light-mode="light"] .tech_card img{
-    animation: scale_anime_dark 2s infinite ease-in-out;
 
-}
 @keyframes scale_anime_dark {
     0%{
         transform: scale(1);
@@ -174,10 +156,7 @@ html[light-mode="light"] .tech_card img{
     font-size: 2.5rem;
     opacity: .7;
 }
-html[light-mode="light"] .techstacks_icons .techstack_icon i {
-    font-size: 2.5rem;
-    opacity: 1;
-}
+
 div.techstack_icon>i:hover {
     opacity: 1;
     transition: opacity .2s linear;
@@ -274,10 +253,7 @@ div.techstack_icon>i.fa-cuttlefish {
     color: #bb86c9;
     text-decoration: none;
 }
-html[light-mode="light"] .project_item a{
-    color: #4e00bb ;
-    text-decoration: none;
-}
+
 @media (max-width:1180px){
     .tech_card{
         width: 45vw;

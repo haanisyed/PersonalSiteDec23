@@ -9,14 +9,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-html[light-mode="light"] {
-  --bg1-color: white;
-  --shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  --border: 1px solid #ecf0f3;
-  --meta-col: #444;
-  --head-col: black;
-  --tint-col: #ecf0f3;
-}
+
 
 html[light-mode="dark"] {
   --bg1-color: #272727;

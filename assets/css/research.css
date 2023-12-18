@@ -4,21 +4,7 @@
 
 /*Declaring CSS variables for Light mode*/
 
-html[light-mode="light"] {
-  --bg1-color: #ffffff;
-  --bg-head: #ffffff;
-  --bg-col: #fff;
-  --p-up: black;
-  --bg-cite-y: #f5f5f5;
-  --cite-bg: #fff;
-  --cite-head: rgb(221, 217, 217);
-  --cite-col-txt: #333;
-  --cite-close: #333;
-  --cite-hover: black;
-  --hover-link: black;
-  --shadow-col1: #a3b1c6;
-  --shadow-col2: #ffffff;
-}
+
 
 /*Declaring CSS variables for Dark Mode*/
 
