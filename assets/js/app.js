@@ -294,22 +294,23 @@ $(document).ready(function () {
   );
 });
 
-//consistent light mode for page change
-if (localStorage.getItem("lightMode") !== "dark") {
+if (localStorage.getItem("lightMode") == "light") {
+  var app = document.getElementsByTagName("HTML")[0];
+  app.setAttribute("light-mode", "light");
+
+  //to add dark theme to nav bar after its been loaded
+  window.addEventListener("load", function () {
+    var nav = document.getElementById("navbar");
+    nav.classList.remove("dark-theme");
+    document.getElementById("dark_toggler").checked = false;
+  });
+
+  var sc = document.getElementsByClassName("socialicon");
+  for (var i = 0; i < sc.length; i++) {
+    sc[i].classList.remove("dsc");
+  }
+} else {
   localStorage.setItem("lightMode", "dark");
-}
-
-// Add dark theme to nav bar after it's been loaded
-window.addEventListener("load", function () {
-  var nav = document.getElementById("navbar");
-  nav.classList.add("dark-theme");
-  document.getElementById("dark_toggler").checked = true;
-});
-
-// Add "dsc" class to social icons
-var sc = document.getElementsByClassName("socialicon");
-for (var i = 0; i < sc.length; i++) {
-  sc[i].classList.add("dsc");
 }
 
 
