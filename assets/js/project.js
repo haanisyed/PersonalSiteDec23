@@ -20,7 +20,7 @@ const projects = [
     description: "Combining CS and Judo passion using Java, Android Studio, Kotlin.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "",
-    Githublink: "",
+    Githublink: "https://github.com/haanisyed/JudokaFighter",
   },
 
   {
@@ -28,19 +28,8 @@ const projects = [
     cardImage: "assets/images/project-page/medium_logo.jpg",
     description: "Writing on emerging tech and implications to academia and industry.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
-    Githublink: "",
+    Previewlink: "https://medium.com/@haanisyedaaq",
   },
-
-  
-
-
-
-  
-  
-  
-  
-  
 ];
 
 // function for rendering project cards data
