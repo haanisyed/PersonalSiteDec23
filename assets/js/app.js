@@ -314,19 +314,27 @@ if (localStorage.getItem("lightMode") == "light") {
 }
 
 
-function toggle_dark_mode() {
+function toggle_light_mode() {
   console.log(localStorage.getItem("lightMode"));
   var app = document.getElementsByTagName("HTML")[0];
   var nav = document.getElementById("navbar");
-  if (localStorage.lightMode !== "dark") {
+  if (localStorage.lightMode == "dark") {
+    localStorage.lightMode = "light";
+    app.setAttribute("light-mode", "light");
+    nav.classList.remove("dark-theme");
+    var sc = document.getElementsByClassName("socialicon");
+    for (var i = 0; i < sc.length; i++) {
+      sc[i].classList.remove("dsc");
+    }
+  } else {
+    nav.classList.add("dark-theme");
     localStorage.lightMode = "dark";
     app.setAttribute("light-mode", "dark");
-    nav.classList.add("dark-theme");
     var sc = document.getElementsByClassName("socialicon");
     for (var i = 0; i < sc.length; i++) {
       sc[i].classList.add("dsc");
     }
-  }
+  } 
   // Optionally, you can add an else statement to handle any specific actions when trying to toggle to light mode, or simply leave it out.
 }
 
