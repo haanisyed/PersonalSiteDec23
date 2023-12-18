@@ -28,7 +28,7 @@ const projects = [
     cardImage: "assets/images/project-page/medium_logo.jpg",
     description: "Writing on emerging tech and implications to academia and industry.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://medium.com/@haanisyedaaq",
+    Githublink: "https://medium.com/@haanisyedaaq"
   },
 ];
 
