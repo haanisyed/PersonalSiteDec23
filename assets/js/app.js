@@ -295,46 +295,40 @@ $(document).ready(function () {
 });
 
 //consistent light mode for page change
-if (localStorage.getItem("lightMode") == "light") {
-  var app = document.getElementsByTagName("HTML")[0];
-  app.setAttribute("light-mode", "light");
-
-  //to add dark theme to nav bar after its been loaded
-  window.addEventListener("load", function () {
-    var nav = document.getElementById("navbar");
-    nav.classList.remove("dark-theme");
-    document.getElementById("dark_toggler").checked = false;
-  });
-
-  var sc = document.getElementsByClassName("socialicon");
-  for (var i = 0; i < sc.length; i++) {
-    sc[i].classList.remove("dsc");
-  }
-} else {
+if (localStorage.getItem("lightMode") !== "dark") {
   localStorage.setItem("lightMode", "dark");
 }
 
-function toggle_light_mode() {
+// Add dark theme to nav bar after it's been loaded
+window.addEventListener("load", function () {
+  var nav = document.getElementById("navbar");
+  nav.classList.add("dark-theme");
+  document.getElementById("dark_toggler").checked = true;
+});
+
+// Add "dsc" class to social icons
+var sc = document.getElementsByClassName("socialicon");
+for (var i = 0; i < sc.length; i++) {
+  sc[i].classList.add("dsc");
+}
+
+
+function toggle_dark_mode() {
   console.log(localStorage.getItem("lightMode"));
   var app = document.getElementsByTagName("HTML")[0];
   var nav = document.getElementById("navbar");
-  if (localStorage.lightMode == "dark") {
-    localStorage.lightMode = "light";
-    app.setAttribute("light-mode", "light");
-    nav.classList.remove("dark-theme");
-    var sc = document.getElementsByClassName("socialicon");
-    for (var i = 0; i < sc.length; i++) {
-      sc[i].classList.remove("dsc");
-    }
-  } else {
-    nav.classList.add("dark-theme");
+  if (localStorage.lightMode !== "dark") {
     localStorage.lightMode = "dark";
     app.setAttribute("light-mode", "dark");
+    nav.classList.add("dark-theme");
     var sc = document.getElementsByClassName("socialicon");
     for (var i = 0; i < sc.length; i++) {
       sc[i].classList.add("dsc");
     }
   }
+  // Optionally, you can add an else statement to handle any specific actions when trying to toggle to light mode, or simply leave it out.
+}
+
 
   // updating the swiper bullets
   updateColorOfSwiperBullets(localStorage.getItem("lightMode"));
