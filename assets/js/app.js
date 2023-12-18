@@ -341,7 +341,7 @@ function toggle_light_mode() {
 
   // updating the swiper bullets
   updateColorOfSwiperBullets(localStorage.getItem("lightMode"));
-}
+
 
 // function to update swiper bullets
 function updateColorOfSwiperBullets(lightMode) {
