@@ -1,6 +1,9 @@
 Developed personal portfolio using JavaScript, React.js, HTML, CSS featuring a dynamic user interface with seamless navigation across Home, Experience, Projects, Research, and Education sections.
+
 Integrated Formcarry API to streamline contact form functionality and efficiently manage client inquiries.
+
 Deployed customized portfolio on Netlify with both light and dark modes ensuring easy accessibility for users.
+
 Live Link: haanisyed.netlify.app
 
 **Home Page**
