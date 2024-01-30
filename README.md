@@ -1,3 +1,7 @@
+• Developed personal portfolio using JavaScript, HTML, CSS featuring a dynamic user interface with seamless navigation across 5 sections.
+
+• Integrated Formcarry API to streamline contact form functionality and efficiently manage client inquiries.
+
 Developed personal portfolio using JavaScript, React.js, HTML, CSS featuring a dynamic user interface with seamless navigation across Home, Experience, Projects, Research, and Education sections.
 
 Integrated Formcarry API to streamline contact form functionality and efficiently manage client inquiries.
