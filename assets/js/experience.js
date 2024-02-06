@@ -9,14 +9,14 @@ const exp = [
     cardImage: "assets/images/experience-page/queens_logo.png",
     place: "Queen's University IT Services",
     time: "(Sept 2023 - April 2024)",
-    desp: "<li>Assisted clients from 50+ departments with hardware, software, and operating systems like Windows, Mac OS, and Linux effectively troubleshooting diverse platforms.</li> <li>Leveraged Azure, PowerShell, database management to conduct MFA setups, vulnerability scans, and password resets.</li> <li>Documented 100+ support tickets via ServiceNow ensuring accurate tracking, efficient communication, and effective resolutions. </li>",
+    desp: "<li>Assisted clients from 50+ departments with hardware, software, and operating systems like Windows, Mac OS, and Linux effectively troubleshooting diverse platforms.</li> <li>Leveraged Azure, PowerShell, database management to conduct MFA setups and password resets.</li> <li>Documented 100+ support tickets via ServiceNow ensuring accurate tracking, efficient communication, and effective resolutions. </li>",
   },
   {
     title: "Undergraduate Research Assistant",
     cardImage: "assets/images/experience-page/lcl_logo.png",
     place: "Language and Cognition Lab (Queen's University)",
     time: "(Sept 2023 - April 2024)",
-    desp: "<li>Designed Qualtrics programs to assist partnering institutes in Bulgaria.</li> <li>Enhanced social networks tool by exploring network theory using Anime.js, jsPsych, Pavlovia, and GitLab. </li> <li> Actively participated in discussions by presenting and discussing latest literature in AI and cognitive science.</li>",
+    desp: "<li>Designed Qualtrics programs to assist partnering institutes in Bulgaria.</li> <li>Enhanced social networks tool using Anime.js and jsPsych. </li> <li> Actively participated in discussions by presenting and discussing latest literature in AI and cognitive science.</li>",
   },
   {
     title: "Software Developer Intern",
