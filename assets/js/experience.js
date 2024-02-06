@@ -16,7 +16,7 @@ const exp = [
     cardImage: "assets/images/experience-page/lcl_logo.png",
     place: "Language and Cognition Lab (Queen's University)",
     time: "(Sept 2023 - April 2024)",
-    desp: "<li>Designed programs in Python, R, and Qualtrics to assist partnering institutes in Bulgaria and Eastern Europe.</li> <li>Enhanced social networks tool by exploring network theory using Anime.js, jsPsych, Pavlovia, and GitLab. </li> <li> Actively participated in discussions by presenting and discussing latest literature in AI and cognitive science.</li>",
+    desp: "<li>Designed Qualtrics programs to assist partnering institutes in Bulgaria.</li> <li>Enhanced social networks tool by exploring network theory using Anime.js, jsPsych, Pavlovia, and GitLab. </li> <li> Actively participated in discussions by presenting and discussing latest literature in AI and cognitive science.</li>",
   },
   {
     title: "Software Developer Intern",
@@ -30,7 +30,7 @@ const exp = [
     cardImage: "assets/images/experience-page/lcl_logo.png",
     place: "Language and Cognition Lab (Queen's University)",
     time: "(May - Aug, 2023)",
-    desp: "<li>In partnership with Stanford University's Language and Cognition Lab and Cornell University, designed Python and JavaScript experiments in PsychoPy, jsPsych, Psychojs, Lab.js, Pavlovia, and GitLab.</li><li>Worked with Government of Canada's Immigration Department to build webpage in HTML, CSS, and JavaScript on heritage language resources.</li>",
+    desp: "<li>Designed Python and JavaScript experiments in PsychoPy, jsPsych, Psychojs, Lab.js, Pavlovia, and GitLab.</li><li>Worked with Government of Canada's Immigration Department to build webpage on heritage language resources.</li>",
   },
 ];
 
