@@ -9,28 +9,28 @@ const exp = [
     cardImage: "assets/images/experience-page/queens_logo.png",
     place: "Queen's University IT Services",
     time: "(Sept 2023 - April 2024)",
-    desp: "<li>Assisted clients from 50+ departments with hardware, software, and operating systems like Windows, Mac OS, and Linux effectively troubleshooting diverse platforms.</li> <li>Leveraged Azure, PowerShell, database management to conduct MFA setups and password resets.</li> <li>Documented 100+ support tickets via ServiceNow ensuring accurate tracking, efficient communication, and effective resolutions. </li>",
+    desp: "<li>Assisted clients from 50+ departments with hardware, software, and operating systems like Windows, Mac OS, and Linux effectively troubleshooting diverse platforms.</li> <li>Leveraged Azure, PowerShell, database management to conduct MFA setups and password resets.</li>",
   },
   {
     title: "Undergraduate Research Assistant",
     cardImage: "assets/images/experience-page/lcl_logo.png",
     place: "Language and Cognition Lab (Queen's University)",
     time: "(Sept 2023 - April 2024)",
-    desp: "<li>Designed Qualtrics programs to assist partnering institutes in Bulgaria.</li> <li>Enhanced social networks tool using Anime.js and jsPsych. </li> <li> Actively participated in discussions by presenting and discussing latest literature in AI and cognitive science.</li>",
+    desp: "<li>Designed Qualtrics programs to assist partnering institutes in Bulgaria.</li> <li> Actively participated in discussions by presenting and discussing latest literature in AI and cognitive science.</li>",
   },
   {
     title: "Software Developer Intern",
     cardImage: "assets/images/experience-page/cac_logo.png",
     place: "Centre for Advanced Computing",
     time: "(June - Sept, 2023)",
-    desp: "<li>Created healthcare web applications using PowerBI, Dash, Plotly, Next.js, and React.js consistently adjusting to meet client needs.</li><li>Supported 50+ participants with Jupyter Notebooks exercises of NumPy, Pandas, Seaborn, NLTK, and scikit-learn at Compute Ontario's 2023 Summer School Text Mining Workshop.</li><li>Collaborated with IT, Security, and Operations teams to deliver high quality products in tight deadlines.</li>",
+    desp: "<li>Created healthcare web applications using PowerBI, Dash, Plotly, Next.js, and React.js consistently adjusting to meet client needs.</li><li>Supported 50+ participants with Jupyter Notebooks exercises of NumPy, Pandas, Seaborn, NLTK, and scikit-learn at Compute Ontario's 2023 Summer School Text Mining Workshop.</li>",
   },
   {
     title: "Summer Research Assistant",
     cardImage: "assets/images/experience-page/lcl_logo.png",
     place: "Language and Cognition Lab (Queen's University)",
     time: "(May - Aug, 2023)",
-    desp: "<li>Designed Python and JavaScript experiments in PsychoPy, jsPsych, Psychojs, Lab.js, Pavlovia, and GitLab.</li><li>Worked with Government of Canada's Immigration Department to build webpage on heritage language resources.</li>",
+    desp: "<li>Designed Python and JavaScript experiments in PsychoPy, jsPsych, Psychojs, Lab.js, Pavlovia, and GitLab.</li>",
   },
 ];
 
