@@ -13,7 +13,7 @@ const exp = [
   },
   {
     title: "Undergraduate Research Assistant",
-    cardImage: "assets/images/experience-page/lcl_logo.png",
+    cardImage: "assets/images/experience-page/QUPsych.png",
     place: "Language and Cognition Lab (Queen's University)",
     time: "(Sept 2023 - March 2024)",
     desp: "<li>Designed Qualtrics programs to assist partnering institutes in Bulgaria.</li> <li> Actively participated in discussions by presenting and discussing latest literature in AI and cognitive science.</li>",
@@ -27,7 +27,7 @@ const exp = [
   },
   {
     title: "Summer Research Assistant",
-    cardImage: "assets/images/experience-page/lcl_logo.png",
+    cardImage: "assets/images/experience-page/QUPsych.png",
     place: "Language and Cognition Lab (Queen's University)",
     time: "(May 2023 - Aug 2023)",
     desp: "<li>Designed Python and JavaScript experiments in PsychoPy, jsPsych, Psychojs, Lab.js, Pavlovia, and GitLab.</li>",
