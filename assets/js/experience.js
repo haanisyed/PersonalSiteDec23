@@ -7,7 +7,7 @@ const exp = [
   {
     title: "Summer Student",
     cardImage: "assets/images/experience-page/HealthCanada_Logo.gif",
-    place: "Health Canada / UOttawa",
+    place: "Health Canada/UOttawa",
     time: "(May 2024 - Aug 2024)",
     desp: "<li>Collaboratively developed bioinformatics django-based web application for genomic data management.</li>",
   },
@@ -21,7 +21,7 @@ const exp = [
   {
     title: "Undergraduate Research Assistant",
     cardImage: "assets/images/experience-page/QUPsych.png",
-    place: "Language and Cognition Lab (Queen's University)",
+    place: "Queen's University Language & Cognition Lab",
     time: "(Sept 2023 - March 2024)",
     desp: "<li>Designed Qualtrics programs to assist partnering institutes in Bulgaria.</li> <li> Actively participated in discussions by presenting and discussing latest literature in AI and cognitive science.</li>",
   },
@@ -35,7 +35,7 @@ const exp = [
   {
     title: "Summer Research Assistant",
     cardImage: "assets/images/experience-page/QUPsych.png",
-    place: "Language and Cognition Lab (Queen's University)",
+    place: "Queen's University Language & Cognition Lab",
     time: "(May 2023 - Aug 2023)",
     desp: "<li>Designed Python and JavaScript experiments in PsychoPy, jsPsych, Psychojs, Lab.js, Pavlovia, and GitLab.</li>",
   },
