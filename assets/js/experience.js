@@ -5,6 +5,13 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Summer Student",
+    cardImage: "assets/images/experience-page/HealthCanada_Logo.gif",
+    place: "Health Canada / UOttawa",
+    time: "(Sept 2023 - March 2024)",
+    desp: "<li>Collaboratively developed bioinformatics django-based web application for genomic data management.</li>",
+  },
+  {
     title: "IT Support Staff",
     cardImage: "assets/images/experience-page/queens_logo.png",
     place: "Queen's University IT Services",
