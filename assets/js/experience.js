@@ -8,7 +8,7 @@ const exp = [
     title: "Summer Student",
     cardImage: "assets/images/experience-page/HealthCanada_Logo.gif",
     place: "Health Canada / UOttawa",
-    time: "(Sept 2023 - March 2024)",
+    time: "(May 2024 - Aug 2024)",
     desp: "<li>Collaboratively developed bioinformatics django-based web application for genomic data management.</li>",
   },
   {
